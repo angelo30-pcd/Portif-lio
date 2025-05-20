@@ -14,11 +14,15 @@ h1, h2, h5{
     color: var(-- --Cor-secundaria);
     font-weight: 700;
 }
+.lead, .btn-link{
+    color: var(--Cor-destaque);
+    font-weight: 700;
 
-footer a {
+}
+ a, .btn-link:hover {
     color: var(--Cor-principal);
 }
 
-footer a: :hover {
-    color: var(--cor-destaque)
+a:hover {
+    color: var(--cor-destaque);
 }
